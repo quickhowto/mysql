@@ -1,0 +1,29 @@
+<h1>Copy a Table from <em>Database A</em> on <em>Server A</em> to <em>Database B</em> on <em>Server B</em> using HeidiSQL</h1>
+
+<h2>HeidiSQL 9.4</h2>
+
+<ol>
+<li>With <em>Database A</em> already created and present on <em>Server A</em>, launch <em>HeidiSQL</em></li>
+<li>Connect to <em>Server A</em> (<code>File</code> &gt; <code>Session Manager</code>)</li>
+<li>Connect to <em>Server B</em> (<code>File</code> &gt; <code>Session Manager</code>)</li>
+<li>Both serves now in left pane</li>
+<li>In left pane
+
+<ol>
+<li>Expand <em>Server A</em> (click <code>+</code>)</li>
+<li>Expand <em>Database A</em></li>
+<li>Right-click on desired <em>Table</em> (that is to be copied)</li>
+<li>Select <code>Export Database as SQL</code></li>
+</ol></li>
+<li><code>SQL export</code> tab opens
+
+<ol>
+<li>Only check to be on <code>Table(s):</code> <code>Create</code></li>
+<li><code>Data:</code> select <code>Delete + Insert (truncate existing...</code></li>
+<li><code>Output:</code> dropdown &gt; select <em>Server B</em></li>
+<li><code>Database</code> dropdown populates below, select <em>Database B</em></li>
+</ol></li>
+<li>Click <code>Export</code></li>
+</ol>
+
+<p>Tags: mysql, windows, heidisql</p>
