@@ -1,2 +1,8 @@
 theme: jekyll-theme-cayman
 paginate: 5
+plugins:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
