@@ -15,3 +15,8 @@
 1. Save file and exit from nano
 1. `sudo service mysql restart`
 1. Now try whatever that led to this particular error which should now be resolved.
+
+
+Tags: mysql, ubuntu, linux, windows
+
+[Permalink](https://quickhowto.github.io/mysql/resolve-mysql-error-1067-42000-invalid-default-value-time-etc_20912)
